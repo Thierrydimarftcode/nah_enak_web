@@ -1,74 +1,46 @@
-🥟 Nah Enak Risoles — Website E-Commerce
+# 🥐 Nah Enak Risoles - Website E-Commerce
 
-Selamat datang di repositori resmi Nah Enak Risoles! Website ini merupakan platform pemesanan online sederhana yang dirancang untuk mempermudah pelanggan melihat varian produk dan melakukan pemesanan risoles lezat dengan cepat.
+Selamat datang di repositori website **Nah Enak Risoles**, platform pemesanan online untuk produk risoles lezat dan berkualitas. Website ini dibuat menggunakan HTML, CSS, dan JavaScript dasar dengan antarmuka yang bersih, responsif, dan mudah digunakan.
 
-📌 Fitur Utama & Struktur Halaman
+---
 
-Website ini terdiri dari 3 halaman utama yang terintegrasi melalui navigasi:
+## 📌 Halaman & Fitur Utama
 
-1. 🏠 Home (index.html)
+Website ini terdiri dari 3 halaman utama:
 
-Katalog Varian Produk: Menampilkan daftar pilihan rasa risoles (seperti Mayo Cheese, Ragout Ayam, dll.) lengkap dengan gambar dan deskripsi.
+### 1. Halaman Utama (`index.html`)
+* **Katalog Produk**: Menampilkan varian risoles (seperti Mayo Cheese, Ragout Ayam) beserta deskripsi rasa.
+* **Varian Paket**: Pilihan paket pembelian risoles.
 
-Varian Paket: Menampilkan pilihan opsi pembelian paket khusus.
+### 2. Halaman Profil (`profile.html`)
+* **Tentang Kami**: Informasi singkat mengenai sejarah berdirinya toko (berdiri sejak tahun 2020).
+* **Kontak & Lokasi**:
+  * **Alamat**: Jl. Oscar IV RT 06/RW 02, Tangerang Selatan
+  * **Email**: nahenak@gmail.com
+  * **No. Telepon / Contact**: 0898-4825-747
 
-2. 👤 Profile (profile.html)
+### 3. Halaman Form Pembelian (`buy.html`)
+Form pemesanan interaktif yang mencakup:
+* **Nama Pemesan**
+* **No. Telepon**
+* **Pilihan Varian Produk & Varian Paket**
+* **Catatan Tambahan** (misal: tingkat kepedasan / pisah cabai)
+* **Metode Pembayaran**
 
-Profil Toko: Informasi singkat mengenai latar belakang toko yang berdiri sejak tahun 2020.
+---
 
-Informasi Kontak & Lokasi: Menampilkan alamat lengkap (Tangerang Selatan), email resmi, dan nomor telepon/WhatsApp.
+## 🛠️ Stack Teknologi
 
-3. 🛒 Beli (buy.html)
+* **HTML5**: Struktur halaman web.
+* **CSS3**: Styling dan tata letak responsif.
+* **JavaScript**: Interaktivitas dan penanganan form.
 
-Form Pembelian: Formulir interaktif bagi pelanggan untuk mengisi data pemesanan:
+---
 
-Nama Pemesan & Nomor Telepon
+## 📂 Struktur Berkas Repositori
 
-Pilihan Varian Produk & Varian Paket
-
-Catatan Tambahan (misal: tingkat pedas, cabai dipisah, dll.)
-
-Opsi Metode Pembayaran
-
-🛠️ Teknologi yang Digunakan
-
-Website ini dibangun menggunakan stack web statis dasar yang ringan dan cepat:
-
-HTML5: Struktur dan konten halaman web.
-
-CSS3: Penataan tampilan, tata letak (layout), dan gaya visual responsive.
-
-JavaScript (Opsional): Interaktivitas pada formulir pembelian.
-
-📁 Struktur Berkas
-
-Projek Web Risol/
-├── index.html       # Halaman Utama (Katalog Produk & Paket)
-├── profile.html     # Halaman Profil Toko & Kontak
-├── buy.html         # Halaman Form Pemesanan
-├── assets/          # (Opsional) Folder penyimpan gambar & foto produk
+```text
+├── index.html       # Halaman beranda / katalog produk
+├── profile.html     # Halaman profil toko dan kontak
+├── buy.html         # Halaman form pemesanan
 └── README.md        # Dokumentasi proyek
-
-
-🚀 Cara Menjalankan Proyek
-
-Clone atau Unduh Repositori
-
-git clone https://github.com/username/nah-enak-risoles.git
-
-
-Buka Berkas
-
-Buka direktori proyek.
-
-Klik ganda pada berkas index.html untuk memukanya di peramban web (browser) favorit Anda.
-
-Atau gunakan ekstensi seperti Live Server di VS Code untuk pengalaman pengembangan yang lebih nyaman.
-
-📞 Kontak Toko
-
-Alamat: Jl. Oscar IV RT 06/RW 02, Tangerang Selatan
-
-Email: nahenak@gmail.com
-
-No. Telepon: 0898-4825-747
