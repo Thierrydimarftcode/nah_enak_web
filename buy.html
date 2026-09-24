@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pembelian - Nah Enak Risoles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="buy.html" class="active">Beli</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>Form Pembelian</h2>
+            <form action="#" method="POST">
+                
+                <div class="form-group">
+                    <label for="nama">Nama Pemesan:</label>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telepon">No. Telepon:</label>
+                    <input type="tel" id="telepon" name="telepon" placeholder="08xxxxxxxxxx" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="varian-produk">Varian Produk:</label>
+                    <select id="varian-produk" name="varian_produk" required>
+                        <option value="" disabled selected>Pilih produk</option>
+                        <option value="varian1">Varian 1</option>
+                        <option value="varian2">Varian 2</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="varian-paket">Varian Paket:</label>
+                    <select id="varian-paket" name="varian_paket" required>
+                        <option value="" disabled selected>Pilih paket</option>
+                        <option value="paket1">Paket Catering (Paket 1)</option>
+                        <option value="paket2">Paket Pernikahan (Paket 2)</option>
+                        <option value="paket3">Paket Acara (Paket 3)</option>
+                    </select>
+                </div>
+
+                 <div class="form-group">
+                    <label for="catatan">Tambahan Catatan:</label>
+                    <textarea id="catatan" name="catatan" rows="4" placeholder="Contoh: Tolong dibuat pedes banget / Pisah cabainya / Gak pedes ya..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Metode Pembayaran:</label>
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="pembayaran" value="cash" required>
+                            Cash
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="pembayaran" value="transfer">
+                            Transfer
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="pembayaran" value="qris">
+                            QRIS
+                        </label>
+                    </div>
+                </div>
+
+
+                <button type="submit" class="btn-submit">Kirim</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Copyrights 2026 - Risoles Web Project</p>
+    </footer>
+
+</body>
+</html>
