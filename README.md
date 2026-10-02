@@ -43,4 +43,4 @@ Form pemesanan interaktif yang mencakup:
 ├── index.html       # Halaman beranda / katalog produk
 ├── profile.html     # Halaman profil toko dan kontak
 ├── buy.html         # Halaman form pemesanan
-└── README.md        # Dokumentasi proyek
+└── README.md        # Dokumentasi proyek.
